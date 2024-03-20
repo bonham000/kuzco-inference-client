@@ -102,7 +102,8 @@ export default function Home() {
             <Link href="https://solana.com/">Solana</Link>.
           </p>
           <p className="text-sm">
-            This is an open source frontend built by a fan.
+            This is an <Link href={GITHUB_REPO_URL}>open source</Link> frontend
+            built by a fan.
           </p>
         </Col>
         <Col className="gap-2">
