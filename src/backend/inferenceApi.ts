@@ -23,7 +23,7 @@ async function handleInferenceRequest(
       `${KUZCO_API_URL}/chat/completions`,
       {
         messages,
-        model: "mistral",
+        model: "llama3",
         stream: false,
       },
       {
